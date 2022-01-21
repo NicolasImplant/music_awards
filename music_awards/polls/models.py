@@ -6,7 +6,7 @@ class Question(models.Model):
     pub_date       = models.DateTimeField("Date published")
     
 
-class Choices(models.Model):
+class Choice(models.Model):
     """Modelo de opcion de respuesta"""
     question = models.ForeignKey(Question, on_delete=models.CASCADE)
     choise_text = models.CharField(max_length = 200)
