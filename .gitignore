@@ -105,3 +105,6 @@ dist
 
 # Virtual environment
 venv/
+venv/lib
+venv/Scripts
+venv/pyvenv.cfg
